@@ -1,0 +1,5 @@
+db.aquatic_plants.find({
+    care: 'easy'
+}).pretty()
+
+db.gardens.find().pretty()
